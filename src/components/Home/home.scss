@@ -1,0 +1,67 @@
+.home-container{
+  width: 76%;
+  margin-left: 15%;
+  margin-right: 8%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.heading{
+  font-family: 'Roboto Mono Regular';
+  font-size: 55px;
+}
+
+.info{
+  flex-grow: 1;
+  margin-top: 50px;
+  font-family: 'Roboto Regular';
+  font-size: 18px;
+  width: 45%;
+  line-height: 1.8;
+}
+
+.icon {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.iconcontainer{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconcontainer div {
+  font-family: Montserrat-Bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.iconitem {
+  flex: 0 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.highlight{
+  font-family: 'Roboto Bold';
+  color: #70F6A9;
+}
+
+.current-focus{
+  font-family: 'Roboto Bold';
+  font-size: 20px;
+  margin-top: 40px;
+}
+

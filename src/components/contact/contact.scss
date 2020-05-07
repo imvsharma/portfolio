@@ -1,0 +1,220 @@
+.contact-container {
+  width: 76%;
+  margin-left: 15%;
+  margin-right: 8%;
+  margin-top: 9%;
+  margin-bottom: 40px;
+}
+
+.input-container {
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+  margin-top: 40px;
+}
+
+.input-container input,
+textarea {
+  margin-right: 10px;
+  margin-right: 10px;
+  width: 98%;
+  height: 30px;
+  margin-left: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.btn {
+  margin-top: 70px;
+  font-family: "Roboto Bold";
+  background-color: #70f6a9;
+  color: #233334;
+  width: 150px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 15px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  color: #e3e4e4;
+}
+input::placeholder,
+textarea::placeholder {
+  font-family: "Roboto Regular";
+  font-size: 18px;
+  color: #6f7175;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.heading {
+  font-family: "Roboto Mono Regular";
+  font-size: 55px;
+}
+
+.info {
+  flex-grow: 1;
+  margin-top: 20px;
+  font-family: "Roboto Regular";
+  font-size: 18px;
+  width: 45%;
+  line-height: 1.8;
+}
+
+.submittext {
+  flex-grow: 1;
+    margin-left: 50px;
+    font-family: Roboto Mono Bold;
+    font-size: 20px;
+    line-height: 42px;
+    color: #fff;
+    margin-top: 91px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 40%;
+}
+
+.social-links{
+  margin-top: 80px;
+  font-size: 14px;
+  font-family:Roboto Bold;
+  color: #70f6a9;
+}
+
+
+
+.social-links div {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+.email {
+  position: relative;
+  display: inline-block;
+}
+
+.phone {
+  position: relative;
+  display: inline-block;
+}
+
+
+/* Tooltip text */
+.email .tooltiptext {
+  visibility: hidden;
+    color: #70f6a9;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    top: -107%;
+    left: -209%;
+    position: absolute;
+    z-index: 1;
+    background-color: grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.phone .tooltiptext {
+  visibility: hidden;
+    color: #70f6a9;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    top: -107%;
+    left: -28%;
+    position: absolute;
+    z-index: 1;
+    background-color: grey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.email:hover .tooltiptext {
+  visibility: visible;
+}
+
+.phone:hover .tooltiptext {
+  visibility: visible;
+}
+
+.email .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: grey transparent transparent transparent;
+}
+
+.phone .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: grey transparent transparent transparent;
+}
+
+
+
+.left{
+  margin-left: 0 !important;
+  
+}
+
+.right{
+  margin-right: 0 !important;
+  padding-right: 37px;
+}
+
+.iconcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconcontainer div {
+  font-family: Montserrat-Bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.iconitem {
+  flex: 0 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.highlight {
+  font-family: "Roboto Bold";
+  color: #70f6a9;
+}
+
+.current-focus {
+  font-family: "Roboto Bold";
+  font-size: 20px;
+  margin-top: 40px;
+}
