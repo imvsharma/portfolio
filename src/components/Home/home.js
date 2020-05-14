@@ -20,7 +20,7 @@ export default class Menu extends Component {
             building excellent software that improves the lives of those around
             me.
             <div className="current-focus">
-              <strong>Currently Focus :</strong>
+              <strong>Currently Focus :  </strong>
               <span className="highlight">
                 Angular, React, Node JS, NoSQL Databases, Serverless APIs
               </span>

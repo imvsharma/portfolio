@@ -123,3 +123,16 @@
   font-weight: 100;
   src: local('Montserrat'), url(../fonts/Montserrat/Montserrat-Thin.ttf) format('truetype');
 }
+
+/* Product Sans Font Family */
+@font-face {
+  font-family: 'Product-Sans-Bold';
+  font-weight: 100;
+  src: local('Product-Sans'), url(../fonts/Product-Sans/Product-Sans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Product-Sans-Regular';
+  font-weight: 100;
+  src: local('Product-Sans'), url(../fonts/Product-Sans/Product-Sans-Regular.ttf) format('truetype');
+}

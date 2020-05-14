@@ -1,3 +1,15 @@
+html {
+  --primaryBackground: #ffffff;
+  --primaryTextColor: #23272D;
+  --primary: #70F6A9;
+}
+
+html[data-theme="dark"] {
+  --primaryBackground: #23272D;
+  --primaryTextColor: #ffffff;
+  --primary: #70F6A9;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,7 +17,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #23272d;
+  background-color: var(--primaryBackground);
   overflow-x: hidden;
 }
 

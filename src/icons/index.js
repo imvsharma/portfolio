@@ -3,6 +3,8 @@ import Diamond from './diamond';
 import Pencil from "./pencil";
 import Love from './love';
 import Design from './design';
+import Hamburger from './hamburger';
+import Cross from './cross'
 
 const Icon = props => {
   switch (props.name) {
@@ -14,6 +16,10 @@ const Icon = props => {
       return <Diamond {...props} />;
     case "design":
       return <Design {...props} />;
+    case "menu":
+      return <Hamburger {...props} />
+    case "cross":
+      return <Cross {...props} />
     default:
       return;
   }

@@ -1,6 +1,6 @@
 .home-container{
-  width: 76%;
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 10%;
   margin-right: 8%;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -12,17 +12,19 @@
   justify-content: space-between;
 }
 .heading{
-  font-family: 'Roboto Mono Regular';
-  font-size: 55px;
+  font-family: 'Product-Sans-Regular';
+  font-size: 48px;
+  color: var(--primaryTextColor);
 }
 
 .info{
   flex-grow: 1;
   margin-top: 50px;
-  font-family: 'Roboto Regular';
-  font-size: 18px;
-  width: 45%;
-  line-height: 1.8;
+  font-family: 'Product-Sans-Regular';
+  font-size: 21px;
+  width: 50%;
+  line-height: 1.7;
+  color: var(--primaryTextColor);
 }
 
 .icon {
@@ -36,16 +38,17 @@
 
 .iconcontainer{
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .iconcontainer div {
-  font-family: Montserrat-Bold;
-  font-size: 14px;
+  font-family: 'Product-Sans-Bold';
+  font-size: 15px;
   line-height: 16px;
   color: #fff;
+  color: var(--primaryTextColor);
 }
 
 .iconitem {
@@ -55,12 +58,13 @@
 }
 
 .highlight{
-  font-family: 'Roboto Bold';
-  color: #70F6A9;
+  font-family: 'Product-Sans-Bold';
+  color: var(--primary);
 }
 
 .current-focus{
-  font-family: 'Roboto Bold';
+  font-family: 'Product-Sans-Regular';
+  font-weight: bold;
   font-size: 20px;
   margin-top: 40px;
 }
