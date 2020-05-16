@@ -29,28 +29,28 @@ export default class Menu extends Component {
           <div className="icon">
             <div className="iconitem">
               <div className="iconcontainer">
-                <Icon name="pencil" />
+                <Icon className="icon-color" name="pencil" />
                 <div>Pixel Perfect Design</div>
               </div>
             </div>
 
             <div className="iconitem">
               <div className="iconcontainer">
-                <Icon name="diamond" />
+                <Icon className="icon-color" name="diamond" />
                 <div>World Class Apps</div>
               </div>
             </div>
 
             <div className="iconitem">
               <div className="iconcontainer">
-                <Icon name="design" />
+                <Icon className="icon-color" name="design" />
                 <div>Repaint Accordingly</div>
               </div>
             </div>
 
             <div className="iconitem">
               <div className="iconcontainer">
-                <Icon name="love" />
+                <Icon className="icon-color" name="love" />
                 <div>Develop With Love</div>
               </div>
             </div>

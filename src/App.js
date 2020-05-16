@@ -1,6 +1,7 @@
 import React from 'react';
 import Menu from './components/menu/menu';
- import Home from './components/Home/home';
+//import Home from './components/Home/home';
+import Skills from './components/skills/skills';
 /*import Contact from './components/contact/contact'; */
 import './App.scss';
 
@@ -8,7 +9,7 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      theme: 'light',
+      theme: 'dark',
     }
     this.toggleTheme = this.toggleTheme.bind(this);
   }
@@ -34,8 +35,9 @@ export default class App extends React.Component {
       <header className="App-header">
     <button className="toggle" onClick={this.toggleTheme}>{this.state.theme === 'dark' ? 'Light' : 'Dark'} Theme</button>
         <Menu />
-        <Home />
+        <Skills />
         {/* 
+        <Home />
         <Contact /> */}
       </header>
     </div>

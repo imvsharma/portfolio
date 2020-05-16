@@ -24,10 +24,10 @@ const SVG = ({
     className={`svg-icon ${className || ""}`}
     xmlnsXlink="http://www.w3.org/1999/xlink"
   >
-    <rect x="7" y="1" fill="none" stroke="#70f6a9" strokeWidth="2" strokeMiterlimit="10" width="48" height="17"/>
-<line fill="none" stroke="#70f6a9" strokeWidth="2" strokeMiterlimit="10" x1="2" y1="9" x2="7" y2="9"/>
-<polyline fill="none" stroke="#70f6a9" strokeWidth="2" strokeMiterlimit="10" points="55,9 61,9 61,24 32,24 32,41 "/>
-<rect x="28" y="42" fill="none" stroke="#70f6a9" strokeWidth="2" strokeMiterlimit="10" width="8" height="21"/>
+    <rect x="7" y="1" fill="none" strokeWidth="2" strokeMiterlimit="10" width="48" height="17"/>
+<line fill="none" strokeWidth="2" strokeMiterlimit="10" x1="2" y1="9" x2="7" y2="9"/>
+<polyline fill="none" strokeWidth="2" strokeMiterlimit="10" points="55,9 61,9 61,24 32,24 32,41 "/>
+<rect x="28" y="42" fill="none" strokeWidth="2" strokeMiterlimit="10" width="8" height="21"/>
 
   </svg>
 );
